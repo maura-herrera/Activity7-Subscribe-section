@@ -1,0 +1,70 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    width: 80%;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/03/51/70/585791ffa147edc.jpg");
+    margin-left: 10%;
+    height: 40vh;
+}
+
+.container{
+    text-align: center;
+
+}
+
+.container h1{
+    font-family: 'New Tegomin', serif;
+    font-size: 30px;
+    color: white;
+}
+
+.container h2 {
+    font-family: 'New Tegomin', serif;
+    font-size: 20px;
+    color: white;
+    
+}
+
+.form{
+    height: 50px;
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form input{
+    height: 30px;
+    width: 30%;
+    border: none;
+    border-radius: 50px;
+    color:lightslategrey;
+    padding-left: 10px;
+    font-family: 'New Tegomin', serif;
+    font-size: 16px;
+
+}
+
+.form button{
+    width: 30%;
+    height: 36px;
+    border: none;
+    border-radius: 50px;
+    font-family: 'New Tegomin', serif;
+    font-size: 16px;
+    background-color: maroon;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+.form button:hover{
+    background-color: white;
+    opacity: 0.5;
+    color: black;
+    font-weight: bolder;
+}
